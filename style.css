@@ -1,0 +1,29 @@
+*{
+    background-color: black;
+    text-align: center;
+}
+header , .item , #data{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.item{
+    background-color: black;
+    font-size: 30px;
+    box-shadow: 20px 2px 50px 20px red;
+    width: 350px;
+    height: 350px;border: 10px ridge rgb(227, 5, 5);
+    border-radius: 50%;
+    color: red;
+margin-top: 10px;
+}
+.item h1{
+    background-color: black;
+}
+header h1{
+    color: red;
+    font-size: 50px;
+   text-align: center;
+}
